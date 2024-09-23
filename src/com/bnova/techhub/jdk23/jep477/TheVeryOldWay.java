@@ -4,10 +4,8 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class TheVeryOldWay
-{
-	public static void main(String[] args)
-	{
+public class TheVeryOldWay {
+	public static void main(String[] args) {
 		List<String> fruits = List.of("Apple", "Banana", "Cherry");
 		System.out.println("Fruits: " + fruits);
 

@@ -1,4 +1,4 @@
-void main(){
+void main() {
 	var number = 5;
 	switch (number) {
 		case 1 -> System.out.println("One");
@@ -7,9 +7,8 @@ void main(){
 		case int i -> System.out.println("number " + i + " is not supported");
 	}
 
-	var littleNumber = 20;
-	if (littleNumber >= -128 && littleNumber <127){
-		var littleByteNumber = (byte) littleNumber;
+	var littleNumber = 200;
+	if (littleNumber instanceof byte littleByteNumber) {
 		System.out.println("littleByteNumber: " + littleByteNumber);
 	} else {
 		System.out.println("littleNumber " + littleNumber + " is too big for a byte");

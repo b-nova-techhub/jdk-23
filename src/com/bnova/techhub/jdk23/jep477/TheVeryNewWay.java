@@ -1,5 +1,4 @@
-void main()
-{
+void main() {
 	List<String> fruits = List.of("Apple", "Banana", "Cherry");
 	println("Fruits: " + fruits);
 
