@@ -11,7 +11,7 @@ void main() {
 		System.out.println("Lets see the fields");
 		classModel.fields().stream()
 			.map(field -> field.fieldName().stringValue())
-			.map(methodName -> " - " + methodName)
+			.map(fieldName -> " - " + fieldName)
 			.forEach(System.out::println);
 	} catch (IOException e) {
 		e.printStackTrace();

@@ -29,8 +29,17 @@ public class ThatIsCoolStuff {
 
 	/// This method performs a **complex operation** on the provided input data, applying various transformations
 	/// 	 and configurations based on the supplied options. It also handles serialization and potential `I/O exceptions`.
-	/// 	 * Think of that
-	/// 	 * And that
+	/// * Think of that
+	/// * And that
+	///
+	/// Code Example:
+	/// ```java
+	/// public <T> String complexOperation(T inputData, Map<String, Object> options) throws IOException, NotSerializableException {
+	/// 		// Method body can be implemented here
+	/// 		return null;
+	///}
+	///```
+	/// awesome stuff!
 	///
 	/// @param inputData The object of type `T` that the operations are performed on.
 	/// @param options   A map containing key-value pairs that control various aspects of the operation.
